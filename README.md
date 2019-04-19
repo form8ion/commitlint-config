@@ -1,5 +1,7 @@
 # commitlint-config
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/form8ion/commitlint-config.svg)](https://greenkeeper.io/)
+
 [shareable config](https://conventional-changelog.github.io/commitlint/#/concepts-shareable-config)
 for [commitlint](https://conventional-changelog.github.io/commitlint/)
 
