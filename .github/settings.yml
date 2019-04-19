@@ -1,4 +1,4 @@
-extend: .github
+_extends: .github
 repository:
   name: commitlint-config
   description: shareable config for commitlint
