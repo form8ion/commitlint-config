@@ -1,6 +1,7 @@
 # commitlint-config
 
-shareable config for commitlint
+[shareable config](https://conventional-changelog.github.io/commitlint/#/concepts-shareable-config)
+for [commitlint](https://conventional-changelog.github.io/commitlint/)
 
 <!-- status badges -->
 [![Build Status][ci-badge]][ci-link]
@@ -11,10 +12,28 @@ shareable config for commitlint
 [![npm][npm-badge]][npm-link]
 [![MIT license][license-badge]][license-link]
 
+This config extends [commitlint-config-travi](https://github.com/travi/commitlint-config-travi)
+
 ### Installation
 
 ```sh
-$ npm install @form8ion/commitlint-config
+$ npm install @form8ion/commitlint-config --save-dev
+```
+
+### Define the config for your project
+
+```sh
+$ echo "module.exports = {extends: ['@form8ion']};" > .commitlintrc.js
+```
+
+### Define the npm script for [husky](https://github.com/typicode/husky)
+
+```json
+{
+  "scripts": {
+    "commitmsg": "commitlint -e"
+  }
+}
 ```
 
 ## Contributing
