@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@form8ion/remark-lint-preset": "1.0.11",
-    "@travi/any": "2.0.13",
+    "@travi/any": "2.0.15",
     "ban-sensitive-files": "1.9.13",
     "cz-conventional-changelog": "3.3.0",
     "husky": "4.3.0",
