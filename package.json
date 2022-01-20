@@ -30,7 +30,7 @@
     "remark-cli": "10.0.1"
   },
   "dependencies": {
-    "@commitlint/cli": "16.0.3",
+    "@commitlint/cli": "16.1.0",
     "@commitlint/config-conventional": "16.0.0"
   }
 }
