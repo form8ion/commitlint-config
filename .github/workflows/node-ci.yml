@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@96f53100ba2a5449eb71d2e6604bbcd94b9449b5
       - name: Setup node
-        uses: actions/setup-node@e2d34eacc811cc517d25162eb9571557fd52b9b1
+        uses: actions/setup-node@f8aa08ed8ebcc273d7db4ffb5645cb9eb570a33e
         with:
           node-version-file: .nvmrc
           cache: npm
