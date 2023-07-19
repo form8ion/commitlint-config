@@ -22,8 +22,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@commitlint/cli": "17.6.6",
-    "@commitlint/config-conventional": "17.6.6"
+    "@commitlint/cli": "17.6.7",
+    "@commitlint/config-conventional": "17.6.7"
   },
   "devDependencies": {
     "@form8ion/remark-lint-preset": "5.0.9",
