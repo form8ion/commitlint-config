@@ -26,7 +26,7 @@
     "@commitlint/config-conventional": "17.6.7"
   },
   "devDependencies": {
-    "@form8ion/remark-lint-preset": "5.0.9",
+    "@form8ion/remark-lint-preset": "6.0.0",
     "@travi/any": "2.1.8",
     "ban-sensitive-files": "1.9.19",
     "cz-conventional-changelog": "3.3.0",
