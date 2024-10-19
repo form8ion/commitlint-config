@@ -1,6 +1,6 @@
-const config = require('@commitlint/config-conventional');
+import config from '@commitlint/config-conventional';
 
-module.exports = {
+export default {
   extends: ['@commitlint/config-conventional'],
   rules: {
     'scope-case': [2, 'always', 'kebab-case'],

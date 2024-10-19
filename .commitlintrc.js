@@ -1,1 +1,1 @@
-module.exports = {extends: ['./index.js']};
+export default {extends: ['./index.js']};
