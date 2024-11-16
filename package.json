@@ -9,6 +9,8 @@
   "bugs": "https://github.com/form8ion/commitlint-config/issues",
   "homepage": "https://npm.im/@form8ion/commitlint-config",
   "sideEffects": false,
+  "main": "./index.js",
+  "exports": "./index.js",
   "scripts": {
     "test": "npm-run-all --print-label --parallel lint:*",
     "lint:md": "remark . --frail",
