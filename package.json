@@ -27,8 +27,8 @@
     "provenance": true
   },
   "dependencies": {
-    "@commitlint/cli": "21.0.1",
-    "@commitlint/config-conventional": "21.0.1"
+    "@commitlint/cli": "21.0.2",
+    "@commitlint/config-conventional": "21.0.2"
   },
   "devDependencies": {
     "@form8ion/remark-lint-preset": "6.0.7",
